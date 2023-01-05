@@ -16,7 +16,7 @@ export default class Score extends React.Component {
 
     color_class() {
         return this.props.score_value < this.state.danger_threshold ||
-            this.props.score_value === "<30"
+            this.props.score_value === "<30" || Number.isNaN(this.props.score_value)
             ? "has-background-danger"
             : this.props.score_value > this.state.success_threshold ||
               this.props.score_value === ">70"

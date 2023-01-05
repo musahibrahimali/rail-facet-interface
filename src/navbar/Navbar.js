@@ -23,10 +23,10 @@ export default class Navbar extends React.Component {
                 aria-label="main navigation"
             >
                 <div className="navbar-brand">
-                    <a className="navbar-item" href="https://rail.knust.edu.gh/">
+                    <a className="navbar-item" rel="noreferrer" target="_blank" href="https://rail.knust.edu.gh/">
                         <img
                             src="icon-512.png"
-                            alt="www.rail.knust.edu.gh/"
+                            alt="www.rail.knust.edu.gh"
                         />
                     </a>
 

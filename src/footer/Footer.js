@@ -7,10 +7,10 @@ export default class Footer extends React.Component {
                 <div className="content has-text-centered">
                     <p>
                         <strong>Responsible A.I.</strong> by{" "}
-                        <a href="https://rail.knust.edu.gh/">RAIL</a> under
+                        <a rel="noreferrer" target="_blank" href="https://rail.knust.edu.gh/">RAIL</a> under
                         the{" "}
-                        <a href="https://github.com/gulfaraz/responsible_ai/blob/master/LICENSE">
-                            GPL-3.0 license
+                        <a rel="noreferrer" target="_blank" href="https://github.com/musahibrahimali/rail-facet-interface/blob/master/LICENCE">
+                            MIT license
                         </a>
                         .
                     </p>
